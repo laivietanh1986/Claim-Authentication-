@@ -1,0 +1,21 @@
+﻿@model WebApplication1.Models.TaiKhoanVm
+@{
+    ViewBag.Title = "Tai Khoan";
+}
+
+<h2>Đăng Nhập :</h2>
+
+@using (Html.BeginForm("Login", "TaiKhoan", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+<div class="form-group">
+    <label for="">Tên Tài Khoản :</label>
+    @Html.TextBoxFor(m => m.TenTaiKhoan, new { @class = "form-control", placeholder = "Tài Khoản" })
+</div>
+<div class="form-group">
+    <label for="">Mật Khẩu:</label>
+    <input type="password" class="form-control" placeholder="Mật Khẩu" name="MatKhau"/>
+</div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+}
