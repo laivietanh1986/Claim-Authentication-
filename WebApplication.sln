@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFormAuthentication", "WebApplication\DemoFormAuthentication.csproj", "{533AEF55-6A73-4BEB-AAD6-43D54EE80C55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClaimAuthentication", "DemoClaimAuthentication\DemoClaimAuthentication.csproj", "{81C9870B-4543-4CE3-855B-EBF81B84A4E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{533AEF55-6A73-4BEB-AAD6-43D54EE80C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{533AEF55-6A73-4BEB-AAD6-43D54EE80C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{533AEF55-6A73-4BEB-AAD6-43D54EE80C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C9870B-4543-4CE3-855B-EBF81B84A4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C9870B-4543-4CE3-855B-EBF81B84A4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C9870B-4543-4CE3-855B-EBF81B84A4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C9870B-4543-4CE3-855B-EBF81B84A4E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

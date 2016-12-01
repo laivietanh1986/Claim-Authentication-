@@ -1,0 +1,23 @@
+﻿@model DemoClaimAuthentication.Controllers.LoginModel
+@{
+    ViewBag.Title = "Tai Khoan";
+}
+
+<h2>Đăng Nhập :</h2>
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+   
+    <div class="form-group">
+        <label for="">Tên Tài Khoản :</label>
+        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Tài Khoản" })
+    </div>
+    <div class="form-group">
+        <label for="">Mật Khẩu:</label>
+        <input type="password" class="form-control" placeholder="Mật Khẩu" name="Password" />
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+}
+
+
